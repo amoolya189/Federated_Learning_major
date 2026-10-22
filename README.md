@@ -2,11 +2,11 @@
    
 python -m venv venv
 
-3. After cloning the repository, and installing requirements.txt
+2. After cloning the repository, and installing requirements.txt
    
 pip install requirements.txt
 
-5. Also following this format the data folder is placed and the data is downloaded as zipa nd extracteed from link<br> (https://www.kaggle.com/datasets/arnobbhowmik/ton-iot-network-dataset)
+3. Also following this format the data folder is placed and the data is downloaded as zipa nd extracteed from link<br> (https://www.kaggle.com/datasets/arnobbhowmik/ton-iot-network-dataset)
 ```text
 majorproject/
 ├── data/
@@ -19,7 +19,7 @@ majorproject/
 └── requirements.txt
 ```
 
-6. Once the environment is set up, and installations are done(Please take the help of AI (Chats))<br>
+4. Once the environment is set up, and installations are done(Please take the help of AI (Chats))<br>
     keep running the src files<br>
    python src\FILENAME.py --arguments
 
@@ -102,5 +102,5 @@ Get-Content outputs\benign_fedavg_roundwise\metrics.json
 
 
 
-6. for viewing the dashboard<br>
+5. for viewing the dashboard<br>
    streamlit run app.py
