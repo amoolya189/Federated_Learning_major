@@ -1,0 +1,40 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Dataset files and generated client partitions
+data/raw/*
+data/processed/*
+data/encoded/*
+data/encoded_final/*
+data/clients/*
+
+# Keep empty data directories in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/encoded/.gitkeep
+!data/encoded_final/.gitkeep
+!data/clients/.gitkeep
+
+# Generated experiment results
+outputs/*
+
+# Keep an explanation of the outputs directory
+!outputs/README.md
+
+# Local editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
